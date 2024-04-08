@@ -3,9 +3,9 @@ public class Main {
         System.out.println("Welcome to ScreenHatcher!");
         System.out.println("Film: Interstellar");
 
-        int year = 2014;
+        int year = 2014; //planning to use API to get this info
         boolean planIncluded = true;
-        double filmGrade = 8;
+        double filmGrade = 8; //planning to use API to get this info
         System.out.println("Release date: " + year);
         if (planIncluded) {
             System.out.println("Included in your plan");
@@ -16,7 +16,7 @@ public class Main {
 
         double avg = (9.8 + 8 + 6.3) /3;
         System.out.println(avg);
-        String synopsis;
+        String synopsis; //planning to use API to get this info
         synopsis = """
                 Science Fiction
                 Moon, stars, time and space.""";
