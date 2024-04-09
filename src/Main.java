@@ -22,5 +22,11 @@ public class Main {
                 Moon, stars, time and space.""";
         System.out.println(synopsis);
 
+        int stars = (int) (avg/2);
+
+        System.out.println("""
+                Estrelas:""");
+        System.out.println(stars);
+
     }
 }
